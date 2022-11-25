@@ -61,7 +61,7 @@ const ProductP = () => {
                 <div onClick={N3handled} className={`${n3 === true ? 'md:h-[200px] hover:rounded-xl bg-[#dfeaf3] pt-2 pl-6 sm:text-[12px] rounded-xl ': 'md:h-[200px] hover:rounded-xl pt-2 pl-6 sm:text-[12px] hover:bg-[#dfeaf3] sm:bg-[#dfeaf3] sm:rounded-xl'}`}>
                     <h1 className='md:text-[28px] sm:text-[20px] '>3. 100% Secure</h1>
                     <br/>
-                    <span className={`${n3 === true ? 'sm:hidden text-blue-400 ' : 'sm:hidden text-black text-opacity-60'}`}>Spyx is safe and reliable. You won’t be identified. Keep an eye on the activities of target phone anonymously without any notice. With Spyx phone tracker, it is convenient and possible to track your spouse, children, employee in real time.</span>
+                    <span className={`${n3 === true ? 'sm:hidden text-blue-400 ' : 'sm:hidden text-black text-opacity-60'}`}>Spyx is safe and reliable. You wonnt be identified. Keep an eye on the activities of target phone anonymously without any notice. With Spyx phone tracker, it is convenient and possible to track your spouse, children, employee in real time.</span>
                 </div>
             </div>
         </div>
