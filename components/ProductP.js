@@ -51,7 +51,7 @@ const ProductP = () => {
                 <div onClick={N1handled}  className={`${n1 === false ? ' md:h-[200px] hover:rounded-xl bg-[#dfeaf3] pt-2 pl-6 sm:text-[12px] rounded-xl': 'md:h-[200px] hover:rounded-xl pt-2 pl-6 sm:text-[12px] hover:bg-[#dfeaf3] sm:bg-[#dfeaf3] sm:rounded-xl'}`}>
                     <h1 className='md:text-[28px] sm:text-[20px]'>1. No Need to Install App</h1>
                     <br/>
-                    <span className={`${n1 === false ? 'sm:hidden text-blue-400 ' : 'sm:hidden text-black text-opacity-60'}`}>You never have to worry about being discovered. Because you don't need to install the app on the target device. Save troublesome installation steps, you can easily achieve remote monitoring. Spyx makes tracking phone an easy and convenient thing.</span>
+                    <span className={`${n1 === false ? 'sm:hidden text-blue-400 ' : 'sm:hidden text-black text-opacity-60'}`}>You never have to worry about being discovered. Because you donnt need to install the app on the target device. Save troublesome installation steps, you can easily achieve remote monitoring. Spyx makes tracking phone an easy and convenient thing.</span>
                 </div>
                 <div onClick={N2handled}  className={`${n2 === true ? 'md:h-[200px] hover:rounded-xl bg-[#dfeaf3] pt-2 pl-6 sm:text-[12px] rounded-xl ': 'rounded-xl md:h-[200px] file:hover:rounded-xl pt-2 pl-6 sm:text-[12px] hover:bg-[#dfeaf3] sm:bg-[#dfeaf3] sm:rounded-xl'}`}>
                     <h1 className='md:text-[28px] sm:text-[20px] '>2. No Jailbreak</h1>
