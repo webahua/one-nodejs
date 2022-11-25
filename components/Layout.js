@@ -6,7 +6,7 @@ import Header from './Header';
 const Layout = ({children}) => (
 <>
     <Head>
-        <title>Film Database</title>
+        <title>Spyx Phone</title>
     </Head>
 
     <Header/>
