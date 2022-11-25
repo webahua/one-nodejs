@@ -19,27 +19,27 @@ const Banner = () => {
         </div>
         <div className=' text-white text-[14px] text-opacity-70 md:pt-10 sm:hidden'>
           <div className='flex items-center'>
-          <Image src={Icon} className='w-[20px]'></Image>
+          <Image src={Icon} alt='' className='w-[20px]'></Image>
           <span className='ml-2'>Track text messages, WhatsApp and soical app’s chats.</span>
           </div>
           
           <div className='flex items-center mt-3'>
-          <Image src={Icon}  className='w-[20px]'></Image>
+          <Image src={Icon} alt=''  className='w-[20px]'></Image>
           <span className='ml-2'>View photos, videos, emails, contacts, call logs.</span>
           </div>
           
           <div className='flex items-center mt-3'>
-          <Image src={Icon}  className='w-[20px]'></Image>
+          <Image src={Icon} alt=''  className='w-[20px]'></Image>
           <span className='ml-2'>Track current GPS locations and location history.</span>
           </div>
           
           <div className='flex items-center mt-3'>
-          <Image src={Icon}  className='w-[20px]'></Image>
+          <Image src={Icon} alt=''  className='w-[20px]'></Image>
           <span className='ml-2'>No access to target device, 100% safe without being detected.</span>
           </div>
           
           <div  className='flex items-center mt-3'>
-          <Image src={Icon}  className='w-[20px]'></Image>
+          <Image src={Icon} alt=''  className='w-[20px]'></Image>
           <span className='ml-2'>Monitor updated content 24/7 remotely and secretly.</span>
           </div>
           
@@ -51,7 +51,7 @@ const Banner = () => {
         
     </div>
     <div className="md:flex md:mt-[60px] md:pl-[80px] h-[510px] sm:flex justify-center">
-    <Image src={Img} alt="1"/>
+    <Image src={Img} alt=''/>
     </div>
     </div>
   )
