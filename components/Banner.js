@@ -20,7 +20,7 @@ const Banner = () => {
         <div className=' text-white text-[14px] text-opacity-70 md:pt-10 sm:hidden'>
           <div className='flex items-center'>
           <Image src={Icon} alt='' className='w-[20px]'></Image>
-          <span className='ml-2'>Track text messages, WhatsApp and soical app’s chats.</span>
+          <span className='ml-2'>Track text messages, WhatsApp and soical apps chats.</span>
           </div>
           
           <div className='flex items-center mt-3'>
