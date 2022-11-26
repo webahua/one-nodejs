@@ -6,7 +6,6 @@ import Bottom from './Bottom'
 import Header from './Header';
 import ProductP from './ProductP';
 import Testimonials from './Testimonials';
-import Lunbo from './lunbo';
 
 const Layout = ({children}) => (
 <>
