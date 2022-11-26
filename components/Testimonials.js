@@ -1,6 +1,5 @@
 import Image from 'next/image'
-import React, { useCallback, useEffect, useRef, useState } from 'react'
-import { fetcher } from '../lib/api'
+import React from 'react'
 import Img from '../image/17.svg'
 import Img2 from '../image/18.svg'
 import Img3 from '../image/avatar-001.png'
@@ -50,26 +49,6 @@ function Testimonials() {
       pingjia:"This is some feedback after using Spyx for 3 months. All I can say that it was awesome as it exceeded my expectations. They allowed me to put it on hold until I was able to gain access to the targets device and then activate my subscription."
     },
   ]
-  const [test,setTest] = useState([])
-
-
-  const Test = useCallback(async() => {
-    try{
-      const res = await fetcher('http://localhost:1337/api/testimonials')
-      if(!res.ok){
-        setTest(res.data)
-        //console.log("22",res.data)
-      }
-    }catch(err){
-      console.log(err)
-    }
-  },[])
-
-  useEffect(() => {
-    Test();
-  }, []);
-
-
 
   return (
     <Carousel autoplay>
