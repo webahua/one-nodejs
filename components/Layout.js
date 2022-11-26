@@ -20,7 +20,6 @@ const Layout = ({children}) => (
     <Testimonials/>
     <Monitor/>
     <Bottom/>
-    <Lunbo />
     
 
     <main >
