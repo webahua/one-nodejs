@@ -67,7 +67,7 @@ function Login() {
               <button type="submit" className='flex items-center justify-center w-11/12 h-[54px] bg-[#fcd980] mt-6 mx-auto  rounded-3xl border-[#bfbfc3] border-[1px] text-[20px]'>Login</button>
             </form>
             <Link href={"/"}><h2 className='mt-[70px] text-[14px] text-[#2405f2] text-center underline'>Forgot Password?</h2></Link>
-            <Link href={"/"}><h2 className='mt-2 text-[14px] text-[#2405f2] text-center underline'>Don't have an account yet?</h2></Link>
+            <Link href={"/"}><h2 className='mt-2 text-[14px] text-[#2405f2] text-center underline'>Dont have an account yet?</h2></Link>
           </div>
           
         </div>
