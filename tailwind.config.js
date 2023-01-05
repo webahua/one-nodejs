@@ -13,17 +13,13 @@ module.exports = {
 
       'xl': {'min': '1279px'},
       // => @media (max-width: 1279px) { ... }
-
-      'lg': {'min': '1023px'},
-      // => @media (max-width: 1023px) { ... }
-
-      'md': {'min': '767px'},
+      'md': {'min': '940px'},
       // => @media (max-width: 767px) { ... }
 
-      'sm': {'max': '639px'},
+      'sm': {'max': '900px'},
       // => @media (max-width: 639px) { ... }
     }
   },
-  plugins: [],
+  plugins: [[require('@tailwindcss/forms')({strategy:'class'})]],
 }
 

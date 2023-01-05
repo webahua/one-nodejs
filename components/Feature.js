@@ -19,7 +19,7 @@ const Feature = () => {
             ming:"Photos",
             jian1:'View all Photos',
             jian:"Check Photos/Videos",
-            zhu:"View all images and videos stored on the target device. What’s more, Spxy can provide specific location of the photo."
+            zhu:"View all images and videos stored on the target device. Whats more, Spxy can provide specific location of the photo."
         },
         {
             id:2,
@@ -51,7 +51,7 @@ const Feature = () => {
             ming:"WhatsApp",
             jian1:'View all WhatsApp',
             jian:"Track WhatsApp",
-            zhu:"Browse chat history, call log, and contact info on the user’s WhatsApp."
+            zhu:"Browse chat history, call log, and contact info on the users WhatsApp."
         },
         {
             id:6,
@@ -79,24 +79,24 @@ const Feature = () => {
         },
     ]
   return (
-    <div className=' bg-[#f5fafe] md:h-[960px]'>
-        <div className='pt-10 md:w-[1280px]'>
+    <div className='flex bg-[#f5fafe] md:h-[960px] items-center justify-center'>
+        <div className=' pt-10 md:w-[1280px]'>
             <h1 className='flex md:w-[1280px] md:h-[148px] md:text-[45px] font-bold text-opacity-80 text-black  items-center justify-center'>Features of Spyx iPhone Tracker App</h1>
             
-            <div className='sm:grid sm:gap-y-8 sm:gap-x-7 sm:grid-cols-3 sm:pl-6 sm:pt-10 md:pl-14 md:pt-6 md:grid md:gap-x-12 md:gap-y-6 md:grid-cols-4'>
+            <div className='sm:grid sm:gap-y-8 sm:gap-x-7 sm:grid-cols-3 sm:pl-6 sm:pt-10 md:pl-14 md:w-full md:pt-6 md:grid md:gap-x-12 md:gap-y-6 md:grid-cols-4'>
                 {
                     FEATURE.map( item => {
                         return (
-                            <div key={item.id} className='sm:w-[115px] h-[100px] md:bg-white md:w-[300px] md:h-[240px] md:border rounded-xl md:hover:shadow-2xl md:hover:-translate-y-1 '>
+                            <div key={item.id} className='sm:w-[115px] h-[100px] md:bg-white md:w-full md:h-[240px] md:border rounded-xl md:hover:shadow-2xl md:hover:-translate-y-1 '>
                                <div className='md:flex md:pt-6 md:pl-4 md:items-center '>
                                     <div className='flex items-center justify-center'>
-                                    <Image src={item.img} className=" h-[30px] md:h-full"/>
+                                    <Image  src={item.img} className=" h-[30px] md:h-full" alt='哈哈'/>
                                     </div>
-                                    <h2 className='sm:hidden md:ml-8 text-opacity-80 text-black'>{item.jian}</h2>
+                                    <h2 className='sm:hidden md:ml-4 text-opacity-80 text-black'>{item.jian}</h2>
                                     <h2 className='md:hidden flex text-[14px] pt-2 items-center justify-center text-bold'>{item.ming}</h2>
                                 </div>
-                                <div className='md:pt-8 md:w-[280px] md:ml-3'>
-                                    <span className=' sm:hidden text-[#333] text-opacity-70 text-[12px] md:text-[16px]'>{item.zhu}</span>
+                                <div className='md:pt-6  text-center md:w-11/12 mx-auto'>
+                                    <span className=' sm:hidden text-[#333] text-opacity-70 text-[12px] md:text-[15px] '>{item.zhu}</span>
                                     <span className='flex md:hidden text-[12px] justify-center pt-2 text-black text-opacity-50'>{item.jian1}</span>
                                 </div>
                             </div>
@@ -107,7 +107,7 @@ const Feature = () => {
                 
             </div>
 
-            <div className='md:flex md:items-center mt-3 md:pt-[60px] md:pl-[40px] md:justify-center'>
+        <div className='md:flex md:items-center mt-3 md:pt-[60px] md:pl-[40px] md:justify-center'>
             <a href='#' className='flex md:w-[230px] h-[50px] text-[18px] rounded-3xl bg-[#fcd980] items-center justify-center hover:bg-[#ecc45f] sm:w-[230px]  sm:mx-auto'>TRY NOW</a>
             <a href='#' className='flex h-[50px]  text-[16px] md:ml-14 hover:text-blue-500 items-center justify-center'>View Demo
             </a>
